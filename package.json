@@ -1,0 +1,13 @@
+{
+  "name": "paws-on-the-rock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Paws on the Rock, in-home dog grooming in Guernsey",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
